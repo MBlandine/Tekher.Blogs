@@ -7,7 +7,7 @@ import Vendors from './componets/Vendors'
 import Login from './componets/Login'
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import './App.css'
-import Layout from './componets/layout';
+import Layout from './componets/Layout';
 
 function App() {
  
