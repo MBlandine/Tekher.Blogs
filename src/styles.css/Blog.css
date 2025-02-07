@@ -1,0 +1,40 @@
+.blog{
+    background-color: white;
+    width: 100%;
+    height: 130vh;
+
+    
+   
+}
+.blog .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    height: 40vh;
+}
+.blog .title h1{
+    color: black;
+    font-size: 64px;
+}
+.picture{
+
+  width: 100%;
+
+  
+  
+}
+.blog .pictures{
+   
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+    margin-left: 5.5rem;
+    
+    gap: 2rem;
+    
+   
+    
+
+}

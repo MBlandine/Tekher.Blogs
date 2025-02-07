@@ -1,0 +1,135 @@
+.contact-body{
+    width: 100%;
+    height: 190vh;
+    background-color: white;
+    
+}
+.upper{
+    background-color: white;
+    height: 5rem;
+}
+.cont {
+    display: flex;
+    background-color: white;
+
+  
+}
+
+
+.inputs {
+    
+    width: 100%;
+    color: black;
+    margin-left: 6rem;
+    margin-bottom: 10rem;
+}
+
+.storess {
+
+    width: 100%;
+}
+
+.message {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.625rem;
+    color: black;
+    
+}
+
+.contact,
+.contactt {
+    width: 42.5%;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ccc;
+    height: 30px;
+    border-radius: 0.3125rem;
+    margin-top: 0.3125rem;
+    margin-left: -2px;
+    margin-right: 14px;
+}
+
+.contacts {
+    height: 30px;
+    margin-left: -2px;
+    width: 90%;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
+    margin-top: 0.3125rem;
+}
+
+.area {
+    width: 90%;
+    height: 14rem;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
+    margin-top: 0.3125rem;
+    background-color: white;
+}
+
+#sub {
+    background-color: #5555ff;
+    color: white;
+    border: none;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.625rem;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    width: 6rem;
+    height: 3rem;
+    margin-left: -2px;
+}
+
+#sub:hover {
+    background-color: #3333cc;
+}
+
+.storess h6 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.storess p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: left;
+
+}
+
+.storess strong {
+    font-weight: bold;
+    text-align: left;
+}
+.down{
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+}
+@media (max-width: 48rem) {
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputs,
+    .store {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .contact {
+        width:100%;
+    }
+
+}

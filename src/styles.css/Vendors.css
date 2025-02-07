@@ -1,0 +1,77 @@
+.vendors{
+    background-color: white;
+    width: 100%;
+    height: 190vh;
+}
+.vendors .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    height: 30vh;
+}
+.vendors .title h1{
+    color: black;
+    font-size: 64px;
+    
+}
+
+.vendors .subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    gap: 1rem;
+}
+.vendors .subtitle h3{
+
+  font-size: larger;
+
+}
+
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+    margin-left: 5.5rem;
+    
+    gap: 2rem;
+    
+}
+.image{
+    
+   width: 100%;
+   height: 50vh;
+}
+.rating{
+    color: gold;
+    margin: 5px 0;
+}
+.absolute{
+   
+   position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 50vh;
+    left: 0;
+    top: 0;
+    
+}
+.absolute h3{
+    color: white;
+
+}
+.relative{
+    position: relative;
+    
+}
+
+
