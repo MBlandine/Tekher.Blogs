@@ -12,4 +12,4 @@ import {Outlet} from 'react-router-dom';
         </div>
     )
  }
- export  default Layout
+ export  default Layout;
