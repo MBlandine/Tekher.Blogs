@@ -5,15 +5,13 @@
 }
 .vendors .title{
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 24px;
-    height: 30vh;
+
 }
 .vendors .title h1{
-    color: black;
+
     font-size: 64px;
-    
+
 }
 
 .vendors .subtitle{
@@ -29,6 +27,119 @@
 
   font-size: larger;
 
+}
+
+.top-bar {
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 4rem;
+    height: 6rem;
+    border-bottom: 1px solid rgba(122, 121, 121, 0.781);
+}
+
+.sort-dropdown {
+    padding: 5px;
+    font-size: 0.9rem;
+    margin-left: 30rem;
+}
+.top-bar .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-left: 30px;
+}
+
+.store {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 8rem;
+    margin-bottom: 10rem;
+    gap: 2rem;
+}
+
+.stores {
+    position: relative;
+    margin-left: 0.3rem;
+    transition: 0.3s ease-in-out;
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    overflow: hidden;
+    border-radius: 0.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 21rem;
+    height: 20rem;
+}
+.store-image {
+    width: 23rem;
+    height: 15rem;
+    object-fit: fill;
+}
+
+.store-overlay {
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+    width: 21rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: white;
+    padding: 1rem;
+    /* height: 15rem; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+.stores:hover .store-overlay {
+    height: 50%;
+}
+
+.store-overlay h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.title{
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 10rem;
+    margin-top: 5rem;
+}
+.stars {
+    color: orange;
+    font-size: 16px;
+}
+
+.store-overlay p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+.profile-circle {
+    position: absolute;
+    bottom: 4rem;
+    right: 0.8rem;
+    width: 3.7rem;
+    height: 3.7rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.arrow{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+    color: rgb(98, 0, 255);
+    cursor: pointer;
 }
 
 

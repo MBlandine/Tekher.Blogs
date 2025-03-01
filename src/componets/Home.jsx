@@ -245,16 +245,20 @@ const Home =()=>{
         </div>
        
       
-
-
+        <div className='instagram'>
+        <h3>Follow Us On Instagram</h3>
         <div className='imagee'>
+          
            <img src={dress1} alt='' className='image'/>
            <img src={dress2} alt='' className='image'/>
            <img src= {dress3} alt='' className='image'/>
            <img src= {dress4} alt='' className='image'/>
            <img src= {dress5} alt='' className='image'/>
            <img src= {dress6} alt='' class='image'/>
+          
+           
 
+        </div>
         </div>
     </div>
       

@@ -89,9 +89,13 @@
 }
 .popular h3{
   
-  font-size: 2.2rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(36, 35, 35);
+ 
+  
+  /* color: rgb(36, 35, 35); */
+  font-size: 2.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
 }
 .popular .image{
   height: 30vh;
@@ -118,10 +122,11 @@
   width: 30vh;
 }
 .newarrivals h3{
-  font-size: 3rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(36, 35, 35);
-  /* margin-bottom: 2rem; */
+  font-size: 2.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* color: rgb(36, 35, 35); */
+  margin-top: 2rem;
+  
 }
 /* h3{
     font-size: 2.1rem;
@@ -390,10 +395,12 @@ h3{
   
 }
 .explore h3{
-  font-size: 3rem;
+  /* font-size: 3rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(36, 35, 35);
-  margin-right: 3rem;
+  margin-right: 3rem; */
+  font-size: 2.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .viewallproducts button{
   color: white;

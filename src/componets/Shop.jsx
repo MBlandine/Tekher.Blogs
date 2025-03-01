@@ -168,6 +168,13 @@ export  const products = [
     }
 
 ];
+
+// const [price, setPrice] = React.useState(79);
+
+// const handlePriceChange = (event) => {
+//   setPrice(event.target.value);
+// };
+
 const Shop = () => {
    
     return (
@@ -189,19 +196,65 @@ const Shop = () => {
                     <li>Sports33 products</li>
                     <li>Watch11 product</li>
                     <li>Woman Clothes(3)</li>
+
+
+                    <h3>Color</h3>
+                    <div className="color-options">
+                     <span className="color" style={{ backgroundColor: "#c4b89a" }}></span>
+                     <span className="color" style={{ backgroundColor: "#a67c52" }}></span>
+                     <span className="color" style={{ backgroundColor: "#e0dfdf" }}></span>
+                     <span className="color" style={{ backgroundColor: "#ffffff", border: "1px solid #ddd" }}></span>
+                    </div>
+                    <hr/>
+                    <div className="ratings">
+                     <h3>Ratings</h3>
+                     <div className="rating-option">
+                     <span className="stars">★★★★★</span>
+                     <span className="count">(8)</span>
+                     </div>
+                     <div className="rating-option">
+                     <span className="stars">★★★★☆</span>
+                     <span className="count">(4)</span>
+                     </div>
+                     <div className="rating-option">
+                     <span className="stars">★★★☆☆</span>
+                     <span className="count">(1)</span>
+                    </div>
+                   </div>
+                   <hr/>
+                   <div className="price">
+                   <h3>Price</h3>
+                   <div className="price-range">
+                     <input className="slider"  type="range" min='0' max='79' />
+                     <div className="price-values">
+                        <span className="price-box">$0</span>
+                        <span className="price-box">$79</span>
+                     </div>
+                   </div>
+                   </div>
+
+                   
+                   
+
                 </div>
                 <div>
-                <div class="producttitle">
-                     <div><h3>Showing 1–9 of 13 results</h3></div>
-                     <div><select id="fruits" name="fruits">
-                            <option value="All Categories">All Categories</option>
-                            <option value="banana">Banana</option>
-                            <option value="grape">Grape</option>
-                            <option value="orange">Orange</option>
-                          </select>
-                          <TfiMenuAlt /></div>
-                          <PiDotsNineBold />
-                </div>
+                      
+                         <div className="top-bar">
+                            <span>Showing 1-9 of 13 results</span>
+                            <select className="sort-dropdown">
+                                <option>Default sorting</option>
+                                <option>Sort by popularity</option>
+                                <option>Sort by average rating</option>
+                                <option>Sort by Latest</option>
+                                <option>Price: Low to High</option>
+                                <option>Price: High to Low</option>
+                            </select>
+                            <div className="icons">
+                            <TfiMenuAlt />
+                            <PiDotsNineBold />
+                            </div>
+                            
+                         </div>
                 <div class="product">
                     {products.map((product, index) => (
                         <div key={index}>
