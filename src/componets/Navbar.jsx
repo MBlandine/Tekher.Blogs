@@ -63,8 +63,7 @@ const handleRegister = () => {
 
             <div className="icons">
             <FiUser className="icon" onClick={handleRegister} />
-            <div><MdOutlineShoppingBag /></div>
-            <div><FaRegHeart /></div>
+            
             </div>
 
 

@@ -1,56 +1,65 @@
 
-.list {
+/* .list {
     color: #000;
     font-size: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5rem;
-}
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+} */
 .container{
   background-color: white;
   width: 100%;
+  
   
 }
 
 .containers {
     display: flex;
-    justify-content: center;
+    
     align-items: flex-start;
     padding: 1rem;
-    position: relative;
+    gap: 19rem;
+    /* position: relative; */
 
   
 }
 
 .side {
-    position: absolute;
-    left: 0;
-    margin-left: 4rem;
-    gap: 0.5rem;
+    /* position: absolute; */
+    /* left: 0; */
+    /* margin-left: 4rem; */
+    /* gap: 0.5rem; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 20rem; */
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    margin-left: 3rem;
+    gap: 0.5rem;
     list-style: none;
+    
 }
 
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    min-width: 40rem;
-    /* margin-left: -2rem; */
+    /* width: 60%; */
+    /* min-width: 40rem; */
+   
     flex-direction: column;
 }
 
-h2 {
+ .center h3 {
     font-size: 2.4rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(36, 35, 35);
+    
 }
 
-button {
+.center button {
     width: 8rem;
-    height: 3rem;
+    height: 2.5rem;
     background-color: rgba(84, 84, 85, 0.842);
     border: none;
     color: white;
@@ -75,8 +84,14 @@ button {
 
 .popular {
     width: 100%;
-    margin-top: 7rem;
+    margin-top: 1rem;
     margin-left: 4rem;
+}
+.popular h3{
+  
+  font-size: 2.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(36, 35, 35);
 }
 .popular .image{
   height: 30vh;
@@ -88,6 +103,7 @@ button {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
+  margin-top: 1rem;
 }
 .text{
   display: flex;
@@ -97,8 +113,297 @@ button {
   margin-left: 4rem;
 
 }
-h3{
+.newarrivals .image{
+  height: 30vh;
+  width: 30vh;
+}
+.newarrivals h3{
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(36, 35, 35);
+  /* margin-bottom: 2rem; */
+}
+/* h3{
     font-size: 2.1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(36, 35, 35);
+} */
+
+
+/* 
+.list {
+  color: #000;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.5rem;
 }
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+}
+
+.side {
+  position: absolute;
+  left: 0;
+  margin-left: 15rem;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  min-width: 40rem;
+  /* margin-left: -2rem; */
+
+/* 
+h2 {
+  font-size: 2.4rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(36, 35, 35);
+}
+
+button {
+  width: 7.5rem;
+  height: 2.5rem;
+  background-color: rgba(71, 71, 71, 0.842);
+  border: none;
+  color: white;
+  margin-left: -17rem;
+  border-radius: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.popular {
+  width: 100%;
+  margin-top: 3rem;
+  margin-left: 15rem;
+}
+h3{
+  font-size: 2.1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(36, 35, 35);
+} */ 
+/* .card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.3rem;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  width: 10rem;
+  height: 12rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+}
+.card:hover{
+  cursor: pointer;
+} */
+/* .newarrivals{
+  width: 100%;
+  margin-top: 3rem;
+  margin-left: 15rem;
+} */
+
+
+.newcards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: -10rem;
+  margin-top: 1rem;
+}
+
+.product-card {
+  width: 22rem;
+  /* border: 1px solid #ddd;
+  border-radius: 8px; */
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+  text-align: center;
+}
+
+.card-images {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.card-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+}
+
+.product-card:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  /* color: rgb(255, 255, 255); */
+  background: transparent;
+  border-radius: 50%;
+  padding: 5px;
+  display: none;
+}
+
+.product-card:hover .heart {
+  display: block;
+}
+
+.select-option {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(27, 27, 27);
+  font-weight: bold;
+  cursor: pointer;
+  animation: fadeInDown 1s ease-in-out;
+}
+.quick-view {
+  color: white;
+  margin-top: 10rem;
+  margin-bottom: -6rem;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(27, 27, 27);
+  font-weight: bold;
+  cursor: pointer;
+  animation: fadeInDown 1s ease-in-out;
+}
+.select-option:hover, .quick-view:hover {
+  background: rgba(119, 119, 119, 0.9);
+}
+
+.card-details {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0.5rem;
+}
+
+
+.price {
+  color: #333;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  
+}
+
+.stars {
+  color: gold;
+  /* width: 10rem; */
+  font-size: 2rem;
+ 
+  /* margin: 5px 0; */
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+  /* margin-right: 13rem; */
+}
+
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+
+.shopnow button{
+  /* width: 7.5rem;
+  height: 2.5rem;
+  background-color: rgba(71, 71, 71, 0.842);
+  border: none;
+  color: white;
+  margin-left: -17rem;
+  border-radius: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer; */
+  color: white;
+  margin-left:35rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: rgba(71, 71, 71, 0.842);
+  
+}
+.explore h3{
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(36, 35, 35);
+  margin-right: 3rem;
+}
+.viewallproducts button{
+  color: white;
+  margin-left:30rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: rgba(71, 71, 71, 0.842);
+}
+
+
+
+
+
